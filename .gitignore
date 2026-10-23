@@ -1,0 +1,56 @@
+# Xcode
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods (not used but just in case)
+Pods/
+Podfile.lock
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# Credentials / secrets
+*.p12
+*.mobileprovision
+*.provisionprofile
+AuthKey_*.p8
+
+# Local signing config (each dev sets their own DEVELOPMENT_TEAM)
+Local.xcconfig
+
+# Local exports, device logs and account material
+.env
+.env.*
+*.log
+*.xcarchive/
+*.xcresult/
+Diagnostics/
+
+# Large, machine-specific Sunshine/PyroWave host snapshots.
+HostSnapshots/

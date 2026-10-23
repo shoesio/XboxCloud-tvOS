@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.owenselles.CloudNow.tokenRefresh</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.josephhewes.CloudNowAppTV</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>cloudnow</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>CloudNow connects to your Sunshine gaming PC on your local network.</string>
+	<key>NSHomeKitUsageDescription</key>
+	<string>Stream controls the selected Apple Home power outlet for your Sunshine gaming PC.</string>
+</dict>
+</plist>

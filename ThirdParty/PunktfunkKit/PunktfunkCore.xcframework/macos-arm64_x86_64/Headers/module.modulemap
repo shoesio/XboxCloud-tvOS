@@ -1,0 +1,4 @@
+module PunktfunkCore {
+    header "punktfunk_core.h"
+    export *
+}

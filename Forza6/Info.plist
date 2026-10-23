@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>XCloudRecentGamesLauncher</key><true/>
+    <key>DirectGameTitle</key><string>Forza Horizon 6</string>
+    <key>DirectGameProductID</key><string>9NR1R1XWLCNB</string>
+    <key>DirectGameAppGroup</key><string>group.com.josephhewes.Forza6AppTV</string>
+    <key>DirectGameURLScheme</key><string>forza6</string>
+    <key>DirectGameCachePrefix</key><string>forza6</string>
+    <key>DirectGameFallbackArtwork</key><string>XCloudLoading</string>
+    <key>CFBundleURLTypes</key><array><dict>
+        <key>CFBundleURLName</key><string>com.josephhewes.Forza6AppTV</string>
+        <key>CFBundleURLSchemes</key><array><string>forza6</string></array>
+    </dict></array>
+</dict></plist>
